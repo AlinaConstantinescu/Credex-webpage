@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+    <title>Credex online</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+</head>
+
+<body>
+
+    <header class="bg-purple-dark text-white ">
+        <div class="header-content w-3/4 pt-8">
+
+            <img class="ml-12" src="logo_ifn.png" alt="Credex logo">
+
+            <ul class="text-sm float-right no-underline w-3/5 mt-1 mr-12">
+                <li class="inline-block ml-8">Calculator Rate</li>
+                <li class="inline-block ml-8">Despre</li>
+                <li class="inline-block ml-8">Credite</li>
+                <li class="inline-block ml-8">Info. Utile</li>
+                <li class="inline-block ml-8">
+                    <button class="bg-blue-light text-white p-3 border border-solid border-blue-light">Contacteaza-ne</button>
+                </li>
+            </ul>
+
+            <div class="header-main pt-24 text-center w-3/5 -mt-10">
+                <h2 class="text-4xl mb-2">Credite online in 3 pasi simplii</h2>
+                <p>Beneficiaza de cele mai bune avantaje pentru un credit de nevoi personale!</p>
+                <ul class="ml-32 mr-24 mt-4">
+                    <img class="w-3" src="phone_top.svg" alt="Phone">
+                    <li class="border-r border-solid border-grey-lighter pr-16 inline-block mr-12 ml-2"> 021.9912</li>
+                    <img class="w-4" src="email_top.svg" alt="Email box">
+                    <li class="inline-block ml-2"> office@credex.ro</li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <article class="first-box bg-orange-lightest -mt-20 border border-red-light border-solid rounded-lg p-6">
+        <div>
+            <h2 class="mb-2">Calculator rate</h2>
+            <p class="">
+                <img src="info.svg" alt="Info icon">
+                Alege tipul de credit de care ai nevoie si calculeaza-ti rata potrivita nevoilor tale.
+            </p>
+            <ul class="pt-4 pb-2 border-grey-dark border-solid border-b">
+                <li class="inline-block -ml-8">Credit Nevoi Personale</li>
+                <li class="inline-block ml-8">Credit Auto</li>
+            </ul>
+        </div>
+
+        <div>
+            <section class="pt-6 inline-flex flex-row">
+                <p class="mr-32">SUMA:</p>
+                <div class="slidecontainer">
+                    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                    <ul>
+                        <li class="inline-block ml-1 mr-32">Min: 1000 lei</li>
+                        <li class="inline-block ml-32">Max: 225.000 lei</li>
+                    </ul>
+                </div>
+                <div class="ml-24 -mt-4">
+                    <p>Suma: </p>
+                    <div>
+                        <input type="range" min="1" max="100" value="50" cclass="slidecontainer-noPointer" id="myRange">
+                    </div>
+                </div>
+            </section>
+
+            <section class="pt-8 inline-flex flex-row">
+                <p class="mr-24">PERIOADA:</p>
+                <div class="slidecontainer">
+                    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                    <ul>
+                        <li class="inline-block ml-1 mr-32">Min: 6 luni </li>
+                        <li class="inline-block ml-32">Max: 60 luni </li>
+                    </ul>
+                </div>
+                <div class="ml-24 -mt-4">
+                    <p>Suma:</p>
+                    <div>
+                        <input type="range" min="1" max="100" value="50" cclass="slidecontainer-noPointer" id="myRange">
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="flex">
+                <div>
+                    <h3>RATA LUNARA:</h3>
+                    <p>116 lei</p>
+                </div>
+                <div>
+                    <h3>DOBANDA:</h3>
+                    <p>12.15%</p>
+                </div>
+                <div>
+                    <h3>DAE:</h3>
+                    <p>31.51%</p>
+                </div>
+            </section>
+        </div>
+
+
+    </article>
+
+</body>
+
+</html>

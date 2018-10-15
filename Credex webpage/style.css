@@ -1,0 +1,45 @@
+html {
+    font-size: 12px;
+}
+
+header {
+    height: 250px;
+}
+
+.header-content {
+    margin-left: 200px;
+}
+
+.header-main {
+    margin-left: 150px;
+} 
+
+header ul button {
+    border-radius: 25px;
+}
+
+.first-box {
+    margin-left: 250px;
+    margin-right: 250px;
+    height: 900px;
+}
+
+.slidecontainer {
+    width: 500px; /* Width of the outside container */
+}
+
+/* The slider itself */
+.slider {
+    width: 90%; 
+    height: 10px; 
+    background: #d3d3d3;
+    opacity: 0.9; 
+}
+
+.slidecontainer-noPointer {
+    height: 10px; 
+    background: #d3d3d3;
+    opacity: 0.9; 
+    cursor: none;
+}
+
